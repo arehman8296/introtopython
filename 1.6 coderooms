@@ -1,0 +1,5 @@
+seconds = int(input("How many seconds has passed since midnight? "))
+hours = seconds // 3600
+minutes = seconds % 60
+minutes = minutes / 100
+print(f"{hours} hours and {minutes} minutes has passed since midnight")
