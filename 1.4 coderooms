@@ -1,0 +1,3 @@
+num = int(input("Enter a number: "))
+print(f"the number before {num} is {num - 1}")
+print(f"the number after {num} is {num + 1}")
