@@ -1,0 +1,12 @@
+print("First timestamp.")
+hour1 = int(input("Enter the hour: "))
+min1 = int(input("Enter the minutes: "))
+sec1 = int(input("Enter the seconds: "))
+print("Second timestamp")
+hour2 = int(input("Enter the hour: "))
+min2 = int(input("Enter the minutes: "))
+sec2 = int(input("Enter the seconds: "))
+time1 = (hour1 * 3600) + (min1 * 60) + (sec1)
+time2 = (hour2 * 3600) + (min2 * 60) + (sec2)
+timepassed = time2 - time1
+print(f"The amount of time passed in seconds between the two timestamps is {timepassed} seconds.")
