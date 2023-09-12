@@ -1,0 +1,5 @@
+one = int(input("Enter your first number: "))
+two = int(input("Enter your second number: "))
+three = int(input("Enter your third number: "))
+sum = one + two + three
+print("The sum of these three numbers is", sum)
