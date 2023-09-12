@@ -1,0 +1,9 @@
+students = int(input("Enter the number of students: "))
+apples = int(input("Enter the number of apples: "))
+if students >= apples: 
+ shared = students // apples
+ leftover = students % apples
+if apples > students:
+ shared = apples // students
+ leftover = apples % students
+print(f"Each student will recieve {shared} apples, with {leftover} remaining in the basket.")
