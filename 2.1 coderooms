@@ -1,0 +1,8 @@
+num = int(input("Enter a two digit number: "))
+num2 = num / 10
+tens = num2 // 1
+sum = tens * 10
+sum = num - sum
+ones = sum 
+print(f"Tens: {tens}")
+print(f"ones: {sum}")
