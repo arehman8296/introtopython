@@ -1,0 +1,9 @@
+num = int(input("Enter a number greater than 9: "))
+if num > 9: 
+    num = str(num)
+    length = len(num)
+    secondlength = length - 1
+    length = length - 2
+    print(f"{num[length]}{num[secondlength]}")
+else:
+    print("Try again with a larger number.")
