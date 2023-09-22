@@ -1,0 +1,5 @@
+num = int(input("Enter a number larger than 9: "))
+num = str(num)
+length = len(num)
+tens = length - 2
+print(num[tens])
